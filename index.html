@@ -75,18 +75,18 @@
       <div class="row hero-row">
         <div class="col-lg-6">
           <div class="hero-description">
-            <h1 class="font-weight-bold hero-title">MyFarm for Android</h1>
-			<h1 class="i18nelement" data-i18n="home.title">Loading</h1>
-            <p class="hero-title-description">
+            <h1 class="font-weight-bold hero-title i18nelement" data-i18n="home.title">MyFarm for Android</h1>
+		
+            <p class="hero-title-description i18nelement" data-i18n="home.desciption">
               Mobile application for solving everyday tasks at the livestock complex. Cargo delivery, repair work, territory maintenance and much more.
             </p>
 			
 			 <a href="https://github.com/idavang/idavang.github.io/releases/download/setup/myfarm.apk">
-              <button class="btn btn-outline-light" type="button"><i class="fab fa-github"></i> Download</button>
+              <button class="btn btn-outline-light" type="button"><i class="fab fa-github"></i> <small class="i18nelement" data-i18n="home.download">Download</small></button>
             </a>
            
             <a href="https://play.google.com/store/apps/details?id=com.idavang.tasks">
-              <button class="btn btn-outline-light" type="button"><i class="fab fa-google-play"></i> Google Play</button>
+              <button class="btn btn-outline-light" type="button"><i class="fab fa-google-play"></i> <small class="i18nelement" data-i18n="home.google">Google Play</small></button>
             </a>
 			
 			
@@ -141,7 +141,7 @@ async function i18Loader() {
     return acc;
   }, {});
   await i18next.init({
-    lng: "ru",
+    lng: "en",
     debug: true,
     resources: res
   });
