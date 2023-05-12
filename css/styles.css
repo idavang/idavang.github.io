@@ -54,6 +54,10 @@ img {
   pointer-events: none;
 }
 
+html{
+  height:100%;
+}
+
 a, a:hover, a:visited, a:focus {
   text-decoration: none !important;
 }
@@ -73,6 +77,7 @@ a, a:hover, a:visited, a:focus {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0b5fdd', endColorstr='#4ca3ef', GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
   box-shadow: 0px 5px 20px rgba(50, 50, 50, .5);
+  height: 100vh !important;
 }
 
 /*--------------------------------------------------------------
@@ -284,19 +289,12 @@ h4 {
 
 /* footer section styling */
 #footer {
-  background: #0b5fdd;
-  /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #0b5fdd 1%, #3690f0 60%, #54a3ee 79%, #4ca3ef 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg, #0b5fdd 1%, #3690f0 60%, #54a3ee 79%, #4ca3ef 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg, #0b5fdd 1%, #3690f0 60%, #54a3ee 79%, #4ca3ef 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0b5fdd', endColorstr='#4ca3ef', GradientType=1);
+  
   /* IE6-9 fallback on horizontal gradient */
   color: #fff;
-  text-align: center;
+
   padding: 2% 0%;
+  
 }
 
 .meet-the-dev {
