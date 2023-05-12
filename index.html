@@ -51,12 +51,12 @@
 
   <section id="hero">
   
-  <div>
-  <select id="langSelector" name="lang">
+ 
+  <select hidden id="langSelector" name="lang">
     <option value="en">English</option>
     <option value="ru">Russian</option>
   </select>
-</div>
+
   
     <div class="container">
       <!-- Nav Bar -->
@@ -68,10 +68,10 @@
         <div class="collapse navbar-collapse" id="navbarItems">
           <ul class="navbar-nav ml-auto">
             <li class="nav-items text-center">
-              <a class="nav-link" href="index.html">Russian</a>
+              <a class="nav-link" href="#" onClick="document.getElementById('langSelector').value='ru'">Russian</a>
             </li>
             <li class="nav-items text-center">
-              <a class="nav-link" href="index_en.html">English</a>
+              <a class="nav-link" href="#" onClick="document.getElementById('langSelector').value='en'">English</a>
             </li>
          
           </ul>
