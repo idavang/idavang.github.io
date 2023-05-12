@@ -1,5 +1,8 @@
 {
   "home": {
-    "title": "Homepage"
+    "title": "MyFarm for Android",
+	"description": "Mobile application for solving everyday tasks at the livestock complex. Cargo delivery, repair work, territory maintenance and much more.",
+	"download": "Download",
+	"google": "Google Play"
   }
 }
