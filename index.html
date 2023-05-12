@@ -51,12 +51,6 @@
 
   <section id="hero">
   
- 
-  <select hidden id="langSelector" name="lang">
-    <option value="en">English</option>
-    <option value="ru">Russian</option>
-  </select>
-
   
     <div class="container">
       <!-- Nav Bar -->
@@ -155,23 +149,17 @@ async function i18Loader() {
   i18next.on("languageChanged", () => {
     updateContent();
   });
-  const langSelector = document.getElementById("langSelector");
-  langSelector.removeAttribute("disabled");
-  langSelector.addEventListener("change", (e) => {
-    i18next.changeLanguage(e.target.value);
-  });
-  
   
    var ru = document.getElementById('setRu'); 
 
     ru.addEventListener("click", (e) => {
-   alert("RU!!!");
+    i18next.changeLanguage("ru");
   });
   
    var en = document.getElementById('setEn'); 
 
-    ru.addEventListener("click", (e) => {
-   alert("EN!!!");
+    en.addEventListener("click", (e) => {
+    i18next.changeLanguage("en");
   });
   
   
