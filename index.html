@@ -68,10 +68,10 @@
         <div class="collapse navbar-collapse" id="navbarItems">
           <ul class="navbar-nav ml-auto">
             <li class="nav-items text-center">
-              <a class="nav-link" href="#" onClick="document.getElementById('langSelector').value='ru'">Russian</a>
+              <a id="setRu" class="nav-link" href="#">Russian</a>
             </li>
             <li class="nav-items text-center">
-              <a class="nav-link" href="#" onClick="document.getElementById('langSelector').value='en'">English</a>
+              <a id="setEn" class="nav-link" href="#">English</a>
             </li>
          
           </ul>
@@ -113,21 +113,9 @@
 	  
     </div>
 	
-	 
 
 
   </section>
-
-
-
- 
-
-  
-
-
-  <!-- Footer -->
-
-
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
@@ -159,7 +147,7 @@ async function i18Loader() {
     return acc;
   }, {});
   await i18next.init({
-    lng: "en",
+    lng: "ru",
     debug: true,
     resources: res
   });
@@ -172,9 +160,26 @@ async function i18Loader() {
   langSelector.addEventListener("change", (e) => {
     i18next.changeLanguage(e.target.value);
   });
+  
+  
+   var ru = document.getElementById('setRu'); 
+
+    ru.addEventListener("click", (e) => {
+   alert("RU!!!");
+  });
+  
+   var en = document.getElementById('setEn'); 
+
+    ru.addEventListener("click", (e) => {
+   alert("EN!!!");
+  });
+  
+  
 }
 
 i18Loader();
+
+
 </script>
 
 </body>
