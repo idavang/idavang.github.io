@@ -1,5 +1,10 @@
 {
    "server":[
+       {
+         "name":"-",
+         "url":"",
+         "push":""
+      },
       {
          "name":"Idavang Russia",
          "url":"https://idavang.online",
