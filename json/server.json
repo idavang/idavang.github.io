@@ -3,17 +3,20 @@
        {
          "name":"-",
          "url":"localhost",
-         "push":"none"
+         "push":"none",
+         "status":"enabled"
       },
       {
          "name":"Idavang Russia",
          "url":"https://idavang.online",
-         "push":"4d76d194-62c3-4dad-b47c-9cca1181be1b"
+         "push":"4d76d194-62c3-4dad-b47c-9cca1181be1b",
+         "status":"enabled"
       },
       {
          "name":"Idavang Lithuania",
          "url":"https://online.idavang.lt",
-         "push":"f86dc6b2-88fb-4f8d-9fb0-59c9a5bb3ff0"
+         "push":"f86dc6b2-88fb-4f8d-9fb0-59c9a5bb3ff0",
+         "status":"enabled"
       }
    ]
 }
