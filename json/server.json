@@ -2,8 +2,8 @@
    "server":[
        {
          "name":"-",
-         "url":"",
-         "push":""
+         "url":"localhost",
+         "push":"none"
       },
       {
          "name":"Idavang Russia",
