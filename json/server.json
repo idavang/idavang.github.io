@@ -1,28 +1,14 @@
 {
    "server":[
       {
-         "username":"faiz",
-         "name":"Faiz Khan",
-         "course":"BCA",
-         "session":"2014-2017"
+         "name":"Idavang Russia",
+         "url":"https://idavang.online",
+         "push":"4d76d194-62c3-4dad-b47c-9cca1181be1b"
       },
       {
-         "username":"belal",
-         "name":"Belal Khan",
-         "course":"MCA",
-         "session":"2015-2018"
-      },
-      {
-         "username":"ramiz",
-         "name":"Ramiz Khan",
-         "course":"MBA",
-         "session":"2015-2017"
-      },
-      {
-         "username":"zafar",
-         "name":"Zafar Khan",
-         "course":"MBA",
-         "session":"2014-2016"
+         "name":"Idavang Lithuania",
+         "url":"https://online.idavang.lt",
+         "push":"f86dc6b2-88fb-4f8d-9fb0-59c9a5bb3ff0"
       }
    ]
 }
