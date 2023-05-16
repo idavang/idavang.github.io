@@ -162,6 +162,15 @@ async function i18Loader() {
 
 i18Loader();
 
+	   $( document ).ready(function() {
+	var url = "https://idavang.github.io/json/version.json";
+	$.getJSON( url, {
+  	format: "json"
+	})
+  .done(function( data ) {
+    console.log(data[0].version.latestVersion);
+  });
+});
 
 </script>
 
