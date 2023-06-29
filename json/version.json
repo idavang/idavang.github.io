@@ -5,7 +5,7 @@
         "latestVersionCode": 95,
         "latestVersionBuild": 54,
         "url": "https://github.com/idavang/idavang.github.io/releases/download/setup/myfarm.apk",
-         "desc_ru":"1. Добавлен справочник состояний свиноматок. Пустая, лактирующая, супоросная.
+        "desc":"1. Добавлен справочник состояний свиноматок. Пустая, лактирующая, супоросная.
         2. В редактировании карточки свиноматки доступно изменение состояния свиноматки.
         3. В карточке свиноматки отображается ее состояние, если заполнено.
         4. При добавлении свиноматки ее cостояние автоматически уставнавливается как Пустая.
@@ -20,23 +20,7 @@
         11. При добавлении осеменения cостояние свиноматки автоматически уставнавливается как Супоросная.
         12. При добавлении переосеменения cостояние свиноматки не изменятся и остается, как Супоросная.
         13. В печатную форму свиноматки добавлена информация о группе последнего осеменения и состояние свиноматки.
-        14. Исправлены все выявленные ошибки из предыдущих сборок.",
-         "desc_en":"1. Added reference book of sows states. Empty, lactating, pregnant.
-         2. In editing the sow card, you can change the state of the sow.
-         3. The sow's status is displayed on the sow card if it is filled out.
-         4. When a sow is added, its status is automatically set to Empty.
-         5. In the list of sows, the status is displayed if filled
-         6. When adding a new sow, her status is automatically set to empty
-         7. Actions with the insemination card in the list are moved to a separate button.
-         8. Actions with the sow card in the list are moved to a separate button.
-         9. When the sow is removed, her condition is checked. Only an empty sow can be removed.
-         10. When the insemination is removed, the condition of the sow is checked and, if necessary,
-         notification of the sow's status change is displayed. If re-insemination is removed, then
-         the state of the pig does not change. If insemination is removed, the sow state is set to empty.
-         11. When a breeding is added, the sow's status is automatically set to Pregnant.
-         12. When adding a reseed, the state of the sow does not change and remains as Pregnant.
-         13. Information about the group of the last insemination and the state of the sow has been added to the sow printable.
-         14. Fixed all identified errors from previous builds."
+        14. Исправлены все выявленные ошибки из предыдущих сборок."
       }
    ]
 }
