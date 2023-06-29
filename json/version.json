@@ -1,9 +1,9 @@
 {
    "version":[
        {
-        "latestVersion": "6.6.23",
-        "latestVersionCode": 95,
-        "latestVersionBuild": 57,
+        "latestVersion": "6.7.23",
+        "latestVersionCode": 96,
+        "latestVersionBuild": 58,
         "url": "https://github.com/idavang/idavang.github.io/releases/download/setup/myfarm.apk",
         "desc":"
       1. Добавлен справочник состояний свиноматок. Пустая, лактирующая, супоросная.
