@@ -3,7 +3,7 @@
        {
         "latestVersion": "6.7.23",
         "latestVersionCode": 96,
-        "latestVersionBuild": 74,
+        "latestVersionBuild": 75,
         "url": "https://github.com/idavang/idavang.github.io/releases/download/setup/myfarm.apk",
         "desc":"
  1. Добавлен модуль расширенного сканера QR-кодов с искуственным интеллектом (Google AI QR scanner)
