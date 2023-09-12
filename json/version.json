@@ -1,11 +1,11 @@
 {
    "version":[
        {
-        "latestVersion": "6.8.23",
-        "latestVersionCode": 98,
-        "latestVersionBuild": 95,
+        "latestVersion": "6.9.23",
+        "latestVersionCode": 100,
+        "latestVersionBuild": 102,
         "url": "https://github.com/idavang/idavang.github.io/releases/download/setup/myfarm.apk",
-        "desc":"Глобальная замена репозитория для последующих обновлений и установок приложения"
+        "desc":"6.9.23 build 100.102 (September 12, 2023)"
       }
    ]
 }
